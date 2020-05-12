@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/biscuitslayer/CLionProjects/6.5_HTModified/main.cpp
+ctype.h
+-
+sys/stat.h
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+cassert
+-
+
