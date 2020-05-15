@@ -5,12 +5,12 @@
 #include <cstring>
 #include <cassert>
 
-const int LIST_SIZE = 1000; //Размер списка
+const int LIST_SIZE = 5000; //Размер списка
 const int NUM_SIZE = 3;   //Макс количество разрядов в числе операций со списком
 const int SERVICE = 118;  //Служебная константа (для построения графов)
 const int HT_SIZE = 101;
 const int BUF_EXTRA_SIZE = 1;
-const char *FILEPATH = "inputs/input.txt";
+const char *FILEPATH = "inputs/input_10000.txt";
 const char *POISON = "POISON";  //Ядовитое значение
 
 //Тип содержимого списка
@@ -85,7 +85,7 @@ int main () {
 	//printf ("Words number: %d\n", words_num);
 	HTFill (&ht, buf, CRC32_opt1, words_num);
 	printf ("filled successfully\n");
-	/*
+	
    	size_t counter = 0;
     for (size_t i = 0; i < HT_SIZE; ++i) {
     	for (size_t j = 0; j < ht.sizes[i]; ++j) {
@@ -93,7 +93,7 @@ int main () {
 				++counter;
     	}
     }
-	*/
+
     HTDestruct (&ht, buf);
     return 0;
 }
