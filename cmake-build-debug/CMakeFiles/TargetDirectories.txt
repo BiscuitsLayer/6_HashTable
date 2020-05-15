@@ -1,3 +1,0 @@
-/home/biscuitslayer/CLionProjects/6.5_HTModified/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/biscuitslayer/CLionProjects/6.5_HTModified/cmake-build-debug/CMakeFiles/6.5_HTModified.dir
-/home/biscuitslayer/CLionProjects/6.5_HTModified/cmake-build-debug/CMakeFiles/edit_cache.dir
